@@ -1,0 +1,24 @@
+{
+  "name": "chatsupport",
+  "version": "1.0.0",
+  "description": "chat support for clients",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "chat",
+    "socket.io",
+    "react",
+    "expressjs"
+  ],
+  "author": "Saurabh Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.1",
+    "nodemon": "^3.1.0",
+    "socket.io": "^4.7.5"
+  }
+}
